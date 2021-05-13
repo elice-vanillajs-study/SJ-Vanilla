@@ -31,7 +31,7 @@ function displayMatches() {
     `;
   }).join('');
   suggestions.innerHTML = html; // 문자열을 html 객체로
-  
+
 }
 
 const searchInput = document.querySelector('.search');
