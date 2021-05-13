@@ -14,7 +14,7 @@ console.log('hello');
 console.log('Hello I am a %s string!', '💩');
 
 // Styled
-// console.log('%c I am some great text', 'font-size:50px; background:red; text-shadow: 10px 10px 0 blue')
+ console.log('%c I am some great text', 'font-size:50px; background:red; text-shadow: 10px 10px 0 blue')
 
 // warning!
 console.warn('OH NOOO');
@@ -31,13 +31,13 @@ const p = document.querySelector('p');
 console.assert(p.classList.contains('ouch'), 'That is wrong!');
 
 // clearing
-console.clear();
+//console.clear();
 
 // Viewing DOM Elements
 console.log(p);
 console.dir(p);
 
-console.clear();
+//console.clear();
 
 // Grouping together
 dogs.forEach(dog => {
