@@ -3,12 +3,12 @@ const minus = document.querySelector('#minus');
 
 let status = document.querySelector('p');
 
-function plus_stat(e) {
+function plus_stat() {
 	status.innerText++;
 	console.log(status.innerText);
 }
 
-function minus_stat(e) {
+function minus_stat() {
 	status.innerText--;
 	console.log(status.innerText);
 }
