@@ -1,17 +1,29 @@
 const plus = document.querySelector('#plus');
 const minus = document.querySelector('#minus');
 
-let status = document.querySelector('p');
+let status = document.querySelector('#num');
+
+let num = 0;
 
 function plus_stat() {
-	status.innerText++;
+	num++;
+	status.innerText = num;
 	console.log(status.innerText);
 }
 
 function minus_stat() {
-	status.innerText--;
+	num--;
+	status.innerText = num;
 	console.log(status.innerText);
 }
 
-plus.addEventListener('click', plus_stat);
-minus.addEventListener('click', minus_stat);
+function cal_stat(check) {
+	if (check) {
+		plus_stat();
+	} else {
+		minus_stat();
+	}
+}
+
+plus.addEventListener('click', () => cal_stat(true));
+minus.addEventListener('click', () => cal_stat(false));
