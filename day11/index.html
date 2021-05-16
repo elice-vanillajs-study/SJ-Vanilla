@@ -11,11 +11,13 @@
   <body>
     <script>
       const pressed = [];
-      const secretCode = "wesbos";
+      const secretCode = "chlim";
 
       window.addEventListener("keyup", (e) => {
         console.log(e.key);
         pressed.push(e.key);
+        console.log("from ", -secretCode.length - 1);
+        console.log("to ", pressed.length - secretCode.length);
         pressed.splice(
           -secretCode.length - 1,
           pressed.length - secretCode.length
