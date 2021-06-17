@@ -1,0 +1,89 @@
+.outline {
+  border: 5px solid darkcyan;
+  width: 250;
+  display: flex;
+  flex-direction: column;
+}
+
+.outline--column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.outline--column:nth-child(3) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.x--icon {
+  transform: scale(200%) translateX(20px);
+}
+
+.playlist {
+  margin-left: 200px;
+}
+
+h3 {
+  /* 폰트 넣기 */
+}
+
+.img {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+}
+
+.img--orange {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.img--tomato {
+  background-color: tomato;
+}
+
+.img--hotpink {
+  background-color: hotpink;
+}
+
+.img--blue {
+  background-color: blue;
+}
+
+.img--aquamarine {
+  background-color: aquamarine;
+}
+
+.play {
+  width: 135px;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart {
+  width: 50px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.plus {
+  width: 50px;
+  height: 40px;
+  border: 2px solid black;
+  borxder-radius: 15px;
+  text-align: center;
+  padding: 10px;
+}
