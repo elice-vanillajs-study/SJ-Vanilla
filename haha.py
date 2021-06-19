@@ -1,5 +1,3 @@
-global s
-
 def foo(s):
 	s = 1
 	try:
